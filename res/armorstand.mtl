@@ -1,0 +1,54 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl u_6
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd u_6.bmp
+map_bump u_6D.bmp
+bump u_6D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS u_6S.bmp
+map_kA 
+map_Ns 
+
+newmtl g_1
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 2048
+map_Kd G_1.bmp
+map_bump g_1D.bmp
+bump g_1D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS g_1S.bmp
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

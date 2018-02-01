@@ -1,0 +1,22 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl mat_shield_deco3
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 11.3137
+map_Kd shield_C.bmp
+map_bump shield_D.bmp
+bump shield_D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS shield_S.bmp
+map_kA 
+map_Ns 

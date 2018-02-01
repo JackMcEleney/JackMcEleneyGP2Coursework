@@ -1,0 +1,230 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl u_1
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd U_1.bmp
+map_bump u_1D.bmp
+bump u_1D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS u_1S.bmp
+map_kA 
+map_Ns 
+
+newmtl s_1
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd S_1.bmp
+map_bump s_1D.bmp
+bump s_1D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS s_1S.bmp
+map_kA 
+map_Ns 
+
+newmtl s_7
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd S_7.bmp
+map_bump s_7S.bmp
+bump s_7S.bmp
+map_opacity 
+map_d 
+refl 
+map_kS s_7S.bmp
+map_kA 
+map_Ns 
+
+newmtl a_3
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd A_3.bmp
+map_bump a_3D.bmp
+bump a_3D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS a_3S.bmp
+map_kA 
+map_Ns 
+
+newmtl e_4
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd E_4.bmp
+map_bump e_4D.bmp
+bump e_4D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS e_4S.bmp
+map_kA 
+map_Ns 
+
+newmtl u_4
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd U_4.bmp
+map_bump u_4D.bmp
+bump u_4D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS u_4S.bmp
+map_kA 
+map_Ns 
+
+newmtl _1___Default
+Ka 0 0 0
+Kd 0.588235 0.721569 0.811765
+Ks 0.528258 0.647997 0.728997
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl r_1
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 4
+map_Kd R_1.bmp
+map_bump r_1D.bmp
+bump r_1D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS r_1S.bmp
+map_kA 
+map_Ns 
+
+newmtl d_1
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd D_1.bmp
+map_bump d_1D.bmp
+bump d_1D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS d_1S.bmp
+map_kA 
+map_Ns 
+
+newmtl d_6
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd D_6.bmp
+map_bump d_6D.bmp
+bump d_6D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS d_6S.bmp
+map_kA 
+map_Ns 
+
+newmtl s_3
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd S_3.bmp
+map_bump s_3D.bmp
+bump s_3D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS s_3S.bmp
+map_kA 
+map_Ns 
+
+newmtl Blacksmith_level
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 5.27803
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl d_7
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 8
+map_Kd D_7.bmp
+map_bump d_7D.bmp
+bump d_7D.bmp
+map_opacity 
+map_d 
+refl 
+map_kS d_7S.bmp
+map_kA 
+map_Ns 

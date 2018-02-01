@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author>Frank</author>
+      <authoring_tool>Right Hemisphere Collada Interface v146.46 with FCollada v1.13.</authoring_tool>
+    </contributor>
+    <created>2008-01-29T20:38:06Z</created>
+    <modified>2008-01-29T20:38:06Z</modified>
+    <unit meter="1.000000" name="unknown"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="New_Scene_Animation"/>
+  </library_animations>
+  <library_images>
+    <image id="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_C_bmp-img">
+      <init_from>./shield_C.bmp.jpg</init_from>
+    </image>
+    <image id="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_D_bmp-img">
+      <init_from>./shield_D.bmp.jpg</init_from>
+    </image>
+    <image id="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_S_bmp-img">
+      <init_from>./shield_S.bmp.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Explorer_Default" name="Explorer_Default">
+      <instance_effect url="#Explorer_Default-fx"/>
+    </material>
+    <material id="mat_shield_deco3" name="mat_shield_deco3">
+      <instance_effect url="#mat_shield_deco3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Explorer_Default-fx" name="Explorer_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 0</color>
+            </emission>
+            <ambient>
+              <color>0.117647 0.117647 0.117647 0</color>
+            </ambient>
+            <diffuse>
+              <color>0.752941 0.752941 0.752941 0</color>
+            </diffuse>
+            <specular>
+              <color>0.752941 0.752941 0.752941 0</color>
+            </specular>
+            <shininess>
+              <float>0.200000</float>
+            </shininess>
+            <reflective>
+              <color>1.000000 1.000000 1.000000 -107374176.000000</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>0 0 0 1.000000</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="MAYA">
+              <spec_level>
+                <float>0.400000</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="mat_shield_deco3-fx" name="mat_shield_deco3">
+      <profile_COMMON>
+        <newparam sid="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_C_bmp-img-surface">
+          <surface type="2D">
+            <init_from>D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_C_bmp-img</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_C_bmp-img-sampler">
+          <sampler2D>
+            <source>D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_C_bmp-img-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_D_bmp-img-surface">
+          <surface type="2D">
+            <init_from>D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_D_bmp-img</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_D_bmp-img-sampler">
+          <sampler2D>
+            <source>D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_D_bmp-img-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_S_bmp-img-surface">
+          <surface type="2D">
+            <init_from>D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_S_bmp-img</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_S_bmp-img-sampler">
+          <sampler2D>
+            <source>D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_S_bmp-img-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 0</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 0</color>
+            </ambient>
+            <diffuse>
+              <texture texture="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_C_bmp-img-sampler" texcoord=""/>
+            </diffuse>
+            <specular>
+              <texture texture="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_S_bmp-img-sampler" texcoord=""/>
+            </specular>
+            <shininess>
+              <float>0.250000</float>
+            </shininess>
+            <reflective>
+              <color>1.000000 1.000000 1.000000 -107374176.000000</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>0 0 0 1.000000</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="MAYA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <bump>
+                <texture texture="D__3D_3D-Objekte_Frank_Fantasy_FantasyWeap_Fantasy_Weapons_shield_deco3_shield_D_bmp-img-sampler" texcoord=""/>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="object-obj" name="object">
+      <mesh>
+        <source id="object-position">
+          <float_array id="object-position-array" count="192">0.121559 -1.688044 31.250000 -11.203809 0.308924 29.000233 0.614269 -1.774841 -29.250000 -2.832802 -1.167080 -25.500080 -20.066893 1.871724 25.250313 -8.741525 -0.125151 -19.000034 0.614269 -1.774841 -29.250000 2.981169 -1.105611 -25.500080 8.361176 0.037997 -19.250214 13.007174 1.025481 -11.500195 16.430872 1.753222 -4.000355 19.120562 2.325026 3.500408 20.099031 2.532912 7.749763 19.854572 2.480872 16.749756 19.120562 2.325026 25.999928 9.828567 0.349780 29.250412 -21.051680 2.045410 16.499577 -21.298035 2.088762 10.249710 -19.820538 1.828280 3.250229 -17.358887 1.394204 -4.249611 -13.665461 0.742999 -11.250015 0.121559 0.061937 31.250000 -11.203809 2.058905 29.000233 0.121559 -1.688044 31.250000 -11.203809 0.308924 29.000233 -2.832802 0.582901 -25.500080 0.614269 -0.024859 -29.250000 -2.832802 -1.167080 -25.500080 0.614269 -1.774841 -29.250000 -20.066893 3.621706 25.250313 -20.066893 1.871724 25.250313 -8.741525 1.624830 -19.000034 -8.741525 -0.125151 -19.000034 0.614269 -0.024859 -29.250000 2.981169 0.644463 -25.500080 0.614269 -1.774841 -29.250000 2.981169 -1.105611 -25.500080 8.361176 1.787978 -19.250214 8.361176 0.037997 -19.250214 13.007174 2.775555 -11.500195 13.007174 1.025481 -11.500195 16.430872 3.503204 -4.000355 16.430872 1.753222 -4.000355 19.121193 4.075007 3.500408 19.120562 2.325026 3.500408 20.099031 4.282894 7.749763 20.099031 2.532912 7.749763 19.854572 4.230946 16.749756 19.854572 2.480872 16.749756 19.121193 4.075007 25.999928 19.120562 2.325026 25.999928 9.828567 2.099854 29.250412 9.828567 0.349780 29.250412 -21.051680 3.795391 16.499577 -21.051680 2.045410 16.499577 -21.298035 3.838836 10.249710 -21.298035 2.088762 10.249710 -19.820538 3.578354 3.250229 -19.820538 1.828280 3.250229 -17.358887 3.144186 -4.249611 -17.358887 1.394204 -4.249611 -13.665461 2.493073 -11.250015 -13.665461 0.742999 -11.250015 -8.741525 -0.125151 -19.000034</float_array>
+          <technique_common>
+            <accessor source="#object-position-array" count="64" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="object-normal">
+          <float_array id="object-normal-array" count="192">0.150772 -0.947000 0.283653 -0.343611 -0.679011 0.648750 -0.461526 -0.838984 -0.288271 -0.606583 -0.655648 -0.449647 -0.674929 -0.688050 0.266567 -0.477029 -0.837455 -0.266668 0.806488 -0.396927 -0.438207 0.727867 -0.498463 -0.470897 0.745910 -0.505328 -0.433892 0.793169 -0.501982 -0.344815 0.819794 -0.500316 -0.278605 0.842929 -0.499307 -0.200407 0.865094 -0.499730 -0.043396 0.866127 -0.497602 0.047074 0.598844 -0.567643 0.564949 0.293572 -0.307273 0.905206 -0.860303 -0.507412 0.049106 -0.854886 -0.509723 -0.096705 -0.833619 -0.508970 -0.214543 -0.796185 -0.511433 -0.323305 -0.832544 -0.298561 -0.466618 0.070807 0 0.997490 -0.260986 0 0.965343 0.150772 -0.947000 0.283653 -0.343611 -0.679011 0.648750 -0.738715 0 -0.674018 -0.736210 0 -0.676753 -0.606583 -0.655648 -0.449647 -0.461526 -0.838984 -0.288271 -0.672028 0 0.740526 -0.674929 -0.688050 0.266567 -0.812015 0 -0.583637 -0.477029 -0.837455 -0.266668 0.845639 0 -0.533756 0.818368 0 -0.574695 0.806488 -0.396927 -0.438207 0.727867 -0.498463 -0.470897 0.793716 0 -0.608288 0.745910 -0.505328 -0.433892 0.876240 0 -0.481874 0.793169 -0.501982 -0.344815 0.920944 0 -0.389694 0.819794 -0.500316 -0.278605 0.953859 -0.000231 -0.300256 0.842929 -0.499307 -0.200407 0.989938 -0.000118 -0.141500 0.865094 -0.499730 -0.043396 0.999011 0 0.044460 0.866127 -0.497602 0.047074 0.903553 -0.000186 0.428477 0.598844 -0.567643 0.564949 0.287953 -0.000040 0.957645 0.293572 -0.307273 0.905206 -0.996144 0 0.087735 -0.860303 -0.507412 0.049106 -0.999080 0 -0.042878 -0.854886 -0.509723 -0.096705 -0.970285 0 -0.241963 -0.833619 -0.508970 -0.214543 -0.931165 0 -0.364598 -0.796185 -0.511433 -0.323305 -0.871611 0 -0.490199 -0.832544 -0.298561 -0.466618 -0.477029 -0.837455 -0.266668</float_array>
+          <technique_common>
+            <accessor source="#object-normal-array" count="64" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="object-texCoords">
+          <float_array id="object-texCoords-array" count="128">0.488281 0.011719 0.304688 0.046875 0.496094 0.972656 0.441406 0.914063 0.160156 0.105469 0.343750 0.808594 0.496094 0.972656 0.535156 0.914063 0.625000 0.812500 0.699219 0.691406 0.757813 0.570313 0.800781 0.453125 0.816406 0.382813 0.812500 0.242188 0.800781 0.093750 0.648438 0.042969 0.140625 0.246094 0.136719 0.343750 0.164063 0.457031 0.203125 0.574219 0.261719 0.687500 0.359375 0.765625 0.308594 0.703125 0.359375 0.820313 0.308594 0.757813 0.343750 0.750000 0.359375 0.769531 0.343750 0.804688 0.359375 0.824219 0.269531 0.652344 0.269531 0.707031 0.320313 0.714844 0.320313 0.769531 0.359375 0.769531 0.351563 0.800781 0.359375 0.824219 0.355469 0.789063 0.390625 0.804688 0.375000 0.820313 0.414063 0.832031 0.359375 0.816406 0.429688 0.855469 0.378906 0.835938 0.441406 0.871094 0.390625 0.851563 0.445313 0.875000 0.394531 0.859375 0.445313 0.875000 0.394531 0.859375 0.441406 0.871094 0.390625 0.851563 0.398438 0.812500 0.343750 0.792969 0.265625 0.648438 0.265625 0.703125 0.261719 0.648438 0.261719 0.703125 0.269531 0.656250 0.269531 0.710938 0.281250 0.667969 0.281250 0.722656 0.296875 0.687500 0.296875 0.742188 0.320313 0.771185</float_array>
+          <technique_common>
+            <accessor source="#object-texCoords-array" count="64" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="object-obj-vertices">
+          <input semantic="POSITION" source="#object-position"/>
+          <input semantic="TEXCOORD" source="#object-texCoords"/>
+        </vertices>
+        <triangles material="mat_shield_deco3" count="58">
+          <input semantic="VERTEX" source="#object-obj-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#object-normal" offset="1"/>
+          <p>0 0 1 1 2 2 1 1 3 3 2 2 1 1 4 4 3 3 4 4 5 5 3 3 0 0 6 6 7 7 0 0 7 7 8 8 0 0 8 8 9 9 0 0 9 9 10 10 0 0 10 10 11 11 0 0 11 11 12 12 0 0 12 12 13 13 14 14 0 0 13 13 15 15 0 0 14 14 4 4 16 16 5 5 16 16 17 17 5 5 17 17 18 18 5 5 18 18 19 19 5 5 19 19 20 20 5 5 21 21 22 22 23 23 22 22 24 24 23 23 25 25 26 26 27 27 26 26 28 28 27 27 22 22 29 29 24 24 29 29 30 30 24 24 31 31 25 25 32 32 25 25 27 27 32 32 33 33 34 34 35 35 34 34 36 36 35 35 34 34 37 37 36 36 37 37 38 38 36 36 37 37 39 39 38 38 39 39 40 40 38 38 39 39 41 41 40 40 41 41 42 42 40 40 41 41 43 43 42 42 43 43 44 44 42 42 43 43 45 45 44 44 45 45 46 46 44 44 45 45 47 47 46 46 47 47 48 48 46 46 47 47 49 49 48 48 49 49 50 50 48 48 49 49 51 51 50 50 51 51 52 52 50 50 51 51 21 21 52 52 21 21 23 23 52 52 29 29 53 53 30 30 53 53 54 54 30 30 53 53 55 55 54 54 55 55 56 56 54 54 55 55 57 57 56 56 57 57 58 58 56 56 57 57 59 59 58 58 59 59 60 60 58 58 59 59 61 61 60 60 61 61 62 62 60 60 61 61 31 31 62 62 31 31 63 63 62 62</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode">
+      <node id="object" name="shield_deco3" type="NODE">
+        <instance_geometry url="#object-obj">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mat_shield_deco33452816845" target="#mat_shield_deco3"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
