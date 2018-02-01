@@ -1,13 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  ObjectTextures.cpp
-  GameShader.cpp
-  ObjectLoader.cpp
-c:\users\jack\desktop\jackmceleneycoursework-master\lab1\objectloader.cpp(378): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  ObjectMeshes.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Jack McEleney Coursework.vcxproj, Lab1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Game.cpp
-  main.cpp
-  Window.cpp
-  Generating Code...
-  stb_image.c
-Game.obj : error LNK2019: unresolved external symbol "public: void __thiscall Meshes::updateSphereData(struct glm::tvec3<float,0>,float)" (?updateSphereData@Meshes@@QAEXU?$tvec3@M$0A@@glm@@M@Z) referenced in function "private: void __thiscall Game::drawGame(void)" (?drawGame@Game@@AAEXXZ)
-C:\Users\Jack\Desktop\JackMcEleneyCoursework-master\Debug\Jack McEleney Coursework.exe : fatal error LNK1120: 1 unresolved externals
+  Lab1.vcxproj -> C:\Users\Jack\Desktop\JackMcEleneyCoursework-master\JackMcEleneyGP2Coursework\Debug\Jack McEleney GP2 Coursework.exe

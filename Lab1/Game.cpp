@@ -37,9 +37,9 @@ void Game::initializeSystems()
 {
 	_gameWindow.initializeWindow(); //creates window settings
 
-	meshes1.loadModel("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework\\res\\wc1.obj"); //loads a model to corresponding mesh class
-	meshes2.loadModel("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework\\res\\cone.obj");
-	meshes3.loadModel("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework\\res\\pokemon.obj");
+	meshes1.loadModel("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework-master\\JackMcEleneyGP2Coursework\\res\\box.obj"); //loads a model to corresponding mesh class
+	meshes2.loadModel("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework-master\\JackMcEleneyGP2Coursework\\res\\cone.obj");
+	meshes3.loadModel("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework-master\\JackMcEleneyGP2Coursework\\res\\pokemon.obj");
 	myCam.initializeCamera(glm::vec3(0, 0, -5), 70.0f, (float)_gameWindow.getWidth()/_gameWindow.getHeight(), 0.01f, 1000.0f); //camera settings
 	counter = 0.0f;
 }
@@ -92,20 +92,21 @@ void Game::drawGame()
 	_gameWindow.clearWindow(0.0f, 0.0f, 0.0f, 1.0f); //clears anything on game window
 	
 	GameShader shader(".\\res\\shader"); //new shader
-	Textures texture("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework\\res\\wc1_diffuse.tga"); //load texture
-	Textures texture1("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework\\res\\conetexture.png"); //load texture
-	Textures texture2("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework\\res\\final_pokemon_diffuse.jpg");
+	Textures texture("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework-master\\JackMcEleneyGP2Coursework\\res\\boxdiffuse.jpg"); //load texture
+	Textures texture1("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework-master\\JackMcEleneyGP2Coursework\\res\\conetexture.png"); //load texture
+	Textures texture2("C:\\Users\\Jack\\Desktop\\JackMcEleneyCoursework-master\\JackMcEleneyGP2Coursework\\res\\final_pokemon_diffuse.jpg");
 	
 	position.SetPos(glm::vec3(sinf(counter), 0.0, 0.0)); //sets objects position, changes due to counter
 	position.SetRot(glm::vec3(0.0, 0.0, counter * 5)); //sets objects rotation, same as above
 	position.SetScale(glm::vec3(sinf(counter), sinf(counter), sinf(counter))); //sets objects scale, same as above
 
+	
 	shader.Bind(); //binds the shader
 	shader.Update(position, myCam); //applies shader to scene, objects become visible
 	texture.Bind(0); //binds the texture loaded to "texture" to the buffer
 	meshes1.draw(); //draws "meshes1" and applies the texture above
 	meshes1.updateSphereData(*position.GetPos(), 0.62f);
-	//shader.Update(position, myCam);
+	shader.Update(position, myCam);
 	texture1.Bind(0); //binds texture1
 	meshes2.draw(); //draws and applies texture1
 	meshes2.updateSphereData(*position.GetPos(), 0.62f);

@@ -57,3 +57,8 @@ void Meshes::draw()
 	glBindVertexArray(0);
 }
 
+void Meshes::updateSphereData(glm::vec3 pos, float radius)
+{
+	meshSphere.SetPos(pos);
+	meshSphere.SetRadius(radius);
+}
