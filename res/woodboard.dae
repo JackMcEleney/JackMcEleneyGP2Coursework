@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author>Frank</author>
+      <authoring_tool>Right Hemisphere Collada Interface v146.46 with FCollada v1.13.</authoring_tool>
+    </contributor>
+    <created>2008-02-03T10:19:49Z</created>
+    <modified>2008-02-03T10:19:49Z</modified>
+    <unit meter="1.000000" name="unknown"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="New_Scene_Animation"/>
+  </library_animations>
+  <library_images>
+    <image id="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6_bmp-img">
+      <init_from>./u_6.bmp.jpg</init_from>
+    </image>
+    <image id="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6D_bmp-img">
+      <init_from>./u_6D.bmp.jpg</init_from>
+    </image>
+    <image id="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6S_bmp-img">
+      <init_from>./u_6S.bmp.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Explorer_Default" name="Explorer_Default">
+      <instance_effect url="#Explorer_Default-fx"/>
+    </material>
+    <material id="_5_-_Default" name="_5_-_Default">
+      <instance_effect url="#_5_-_Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Explorer_Default-fx" name="Explorer_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 0</color>
+            </emission>
+            <ambient>
+              <color>0.117647 0.117647 0.117647 0</color>
+            </ambient>
+            <diffuse>
+              <color>0.752941 0.752941 0.752941 0</color>
+            </diffuse>
+            <specular>
+              <color>0.752941 0.752941 0.752941 0</color>
+            </specular>
+            <shininess>
+              <float>0.200000</float>
+            </shininess>
+            <reflective>
+              <color>1.000000 1.000000 1.000000 -107374176.000000</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>0 0 0 1.000000</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="MAYA">
+              <spec_level>
+                <float>0.400000</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_5_-_Default-fx" name="_5_-_Default">
+      <profile_COMMON>
+        <newparam sid="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6_bmp-img-surface">
+          <surface type="2D">
+            <init_from>D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6_bmp-img</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6_bmp-img-sampler">
+          <sampler2D>
+            <source>D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6_bmp-img-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6D_bmp-img-surface">
+          <surface type="2D">
+            <init_from>D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6D_bmp-img</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6D_bmp-img-sampler">
+          <sampler2D>
+            <source>D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6D_bmp-img-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6S_bmp-img-surface">
+          <surface type="2D">
+            <init_from>D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6S_bmp-img</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6S_bmp-img-sampler">
+          <sampler2D>
+            <source>D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6S_bmp-img-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 0</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 0</color>
+            </ambient>
+            <diffuse>
+              <texture texture="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6_bmp-img-sampler" texcoord=""/>
+            </diffuse>
+            <specular>
+              <texture texture="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6S_bmp-img-sampler" texcoord=""/>
+            </specular>
+            <shininess>
+              <float>0.200000</float>
+            </shininess>
+            <reflective>
+              <color>1.000000 1.000000 1.000000 -107374176.000000</color>
+            </reflective>
+            <reflectivity>
+              <float>1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color>0 0 0 1.000000</color>
+            </transparent>
+            <transparency>
+              <float>0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="MAYA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <bump>
+                <texture texture="D__3D_3D-Objekte_christian_Medievalpack_Pack_Medievalpack_Pack_Medieval_Content-3ds_files_Blacksmith_stuff_3ds_u_6D_bmp-img-sampler" texcoord=""/>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="object-obj" name="object">
+      <mesh>
+        <source id="object-position">
+          <float_array id="object-position-array" count="438">28.931961 -4.600443 -2.228413 25.293390 -4.728844 -2.228413 28.641195 3.616399 44.626320 25.002609 3.487928 44.626320 25.002609 3.487928 44.626320 25.118895 0.202288 45.199375 28.641195 3.616399 44.626320 28.757490 0.330757 45.199375 28.757490 0.330757 45.199375 25.118895 0.202288 45.199375 29.048244 -7.886064 -2.228413 25.409674 -8.014464 -2.228413 25.409674 -8.014464 -2.228413 25.118895 0.202288 45.199375 25.293390 -4.728844 -2.228413 25.002609 3.487928 44.626320 29.048244 -7.886064 -2.228413 28.931961 -4.600443 -2.228413 28.757490 0.330757 45.199375 28.641195 3.616399 44.626320 -24.298935 -1.698264 40.770031 -24.232525 -3.574901 41.097340 32.919231 -0.393331 40.770031 32.985645 -2.269965 41.097340 -24.154774 -5.771693 27.442165 33.051922 -4.142965 31.076853 -24.232525 -3.574901 41.097340 32.985645 -2.269965 41.097340 32.107334 -9.796323 -1.876798 -25.110842 -11.101201 -1.876799 32.040920 -7.919692 -2.204106 -25.177265 -9.224577 -2.204107 -24.221161 -3.896025 27.109365 -24.154774 -5.771693 27.442165 -24.298935 -1.698264 40.770031 -24.232525 -3.574901 41.097340 32.986465 -2.292870 30.597250 32.919231 -0.393331 40.770031 33.051922 -4.142965 31.076853 32.985645 -2.269965 41.097340 -23.344400 -5.120819 20.953062 -23.278406 -6.985652 21.348097 -23.382036 -4.057391 26.013931 -23.315977 -5.924033 26.398462 34.399239 -4.280648 30.014271 -23.315977 -5.924033 26.398462 34.445717 -5.593848 21.743546 -23.278406 -6.985652 21.348097 34.379692 -3.728122 21.353817 34.332474 -2.393918 29.744759 34.445717 -5.593848 21.743546 34.399239 -4.280648 30.014271 33.051922 -4.142965 31.076853 34.399239 -4.280648 30.014271 32.986465 -2.292870 30.597250 34.332474 -2.393918 29.744759 -25.110842 -11.101201 -1.876799 -25.177265 -9.224577 -2.204107 32.107334 -9.796323 -1.876798 -25.110842 -11.101201 -1.876799 32.107334 -9.796323 -1.876798 32.040920 -7.919692 -2.204106 2.188012 -5.629770 -2.228413 2.264311 2.341633 41.115688 5.826610 -5.501000 -2.228413 5.857363 1.753520 41.115688 2.264311 2.341633 41.115688 5.857363 1.753520 41.115688 2.264311 2.341633 41.115688 5.326278 -1.491038 41.688744 1.733256 -0.902918 41.688744 1.733256 -0.902918 41.688744 2.304309 -8.915404 -2.228413 5.326278 -1.491038 41.688744 5.942891 -8.786629 -2.228413 2.304309 -8.915404 -2.228413 1.733256 -0.902918 41.688744 2.188012 -5.629770 -2.228413 2.264311 2.341633 41.115688 5.942891 -8.786629 -2.228413 5.826610 -5.501000 -2.228413 5.326278 -1.491038 41.688744 5.857363 1.753520 41.115688 -18.187777 -1.650761 30.294073 -22.950777 16.177820 -2.228410 -20.325613 -1.726420 30.294073 -25.088631 16.102167 -2.228410 -25.004711 13.731587 -2.228410 -22.866875 13.807246 -2.228410 -20.325613 -1.726419 25.728500 -18.187777 -1.650761 25.728500 -18.187777 -1.650761 30.294073 -18.187777 -1.650761 25.728500 -22.950777 16.177820 -2.228410 -22.866875 13.807246 -2.228410 -20.325613 -1.726420 30.294073 -25.088631 16.102167 -2.228410 -20.325613 -1.726419 25.728500 -25.004711 13.731587 -2.228410 25.806709 -0.813445 30.294073 27.944546 -0.737786 30.294073 27.570642 17.246048 -2.228410 29.708506 17.321386 -2.228410 29.792435 14.950879 -2.228410 27.944546 -0.737786 25.728500 27.654566 14.875525 -2.228410 25.806709 -0.813445 25.728500 27.944546 -0.737786 30.294073 27.944546 -0.737786 25.728500 29.708506 17.321386 -2.228410 29.792435 14.950879 -2.228410 25.806709 -0.813445 30.294073 27.570642 17.246048 -2.228410 25.806709 -0.813445 25.728500 27.654566 14.875525 -2.228410 -17.320356 -5.517252 -2.228414 -20.958935 -5.646020 -2.228414 -17.603853 2.493407 43.185165 -21.242439 2.364643 43.185165 -17.603853 2.493407 43.185165 -21.242439 2.364643 43.185165 -17.487579 -0.792237 43.758224 -21.126169 -0.921010 43.758224 -17.487579 -0.792237 43.758224 -21.126169 -0.921010 43.758224 -17.204071 -8.802865 -2.228414 -20.842649 -8.931632 -2.228414 -20.842649 -8.931632 -2.228414 -21.126169 -0.921010 43.758224 -20.958935 -5.646020 -2.228414 -21.242439 2.364643 43.185165 -17.204071 -8.802865 -2.228414 -17.320356 -5.517252 -2.228414 -17.487579 -0.792237 43.758224 -17.603853 2.493407 43.185165 -24.298935 -1.698264 40.770031 32.919231 -0.393331 40.770031 -24.221161 -3.896025 27.109365 -23.382036 -4.057391 26.013931 32.986465 -2.292870 30.597250 34.332474 -2.393918 29.744759 34.379692 -3.728122 21.353817 -23.344400 -5.120819 20.953062 32.040920 -7.919692 -2.204106 -23.344400 -5.120819 20.953062 -25.177265 -9.224577 -2.204107</float_array>
+          <technique_common>
+            <accessor source="#object-position-array" count="146" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="object-normal">
+          <float_array id="object-normal-array" count="438">-0.034736 0.984338 -0.172837 -0.034745 0.984338 -0.172837 -0.034745 0.984338 -0.172837 -0.034755 0.984337 -0.172836 -0.006059 0.171607 0.985147 -0.006059 0.171607 0.985147 -0.006059 0.171607 0.985147 -0.006059 0.171607 0.985147 0.034767 -0.984690 0.170810 0.034758 -0.984691 0.170809 0.034758 -0.984691 0.170809 0.034748 -0.984691 0.170808 -0.999374 -0.035369 0.000001 -0.999374 -0.035370 0.000001 -0.999374 -0.035370 0.000001 -0.999374 -0.035370 0.000001 0.999374 0.035369 -0.000001 0.999374 0.035371 -0.000001 0.999374 0.035371 -0.000001 0.999374 0.035372 -0.000001 -0.018566 0.814070 0.580470 -0.321433 -0.552520 0.769027 0.465062 0.811836 0.353043 0.012999 -0.569982 0.821554 -0.780259 -0.619959 -0.082746 0.019273 -0.986394 0.163264 -0.321433 -0.552520 0.769027 0.012999 -0.569982 0.821554 0.857453 -0.060281 -0.511020 0.003915 -0.171683 -0.985144 0.311240 0.534233 -0.785955 0.003915 -0.171683 -0.985144 -0.901356 -0.111999 -0.418346 -0.780259 -0.619959 -0.082746 -0.999374 -0.035369 0 -0.321433 -0.552520 0.769027 0.620939 0.692064 0.368079 0.465062 0.811836 0.353043 0.955424 0.105307 0.275817 0.999374 0.035368 -0.000001 -0.998189 -0.024743 0.054829 -0.686453 -0.711855 0.148471 -0.975723 -0.076782 -0.205106 -0.503133 -0.857775 -0.105263 0.018462 -0.987854 0.154285 -0.503133 -0.857775 -0.105263 0.021012 -0.983699 0.178593 -0.686453 -0.711855 0.148471 0.685621 0.707080 -0.173094 0.743462 0.650085 0.157016 0.999031 0.028313 -0.033704 0.796643 0.144533 0.586916 0.955424 0.105307 0.275817 0.796643 0.144533 0.586916 0.620939 0.692064 0.368079 0.743462 0.650085 0.157016 -0.877365 -0.455745 0.150094 -0.996368 -0.020867 0.082559 0.022507 -0.984693 0.172840 -0.877365 -0.455745 0.150094 0.857453 -0.060281 -0.511020 0.311240 0.534233 -0.785955 -0.873797 0.477383 -0.092657 -0.661558 0.737732 -0.134512 0.750178 0.651994 -0.110167 0.670251 0.562768 0.483793 0.095746 0.584954 0.805396 0.670251 0.562768 0.483793 0.095746 0.584954 0.805396 0.549130 -0.498245 0.670976 0.027737 0.169458 0.985147 -0.927936 -0.367677 0.061219 -0.485993 -0.862017 0.144006 0.549130 -0.498245 0.670976 0.034889 -0.985801 0.164253 -0.485993 -0.862017 0.144006 -0.927936 -0.367677 0.061219 -0.873797 0.477383 -0.092657 -0.661558 0.737732 -0.134512 0.999341 0.035367 0.008156 0.750178 0.651994 -0.110167 0.549130 -0.498245 0.670976 0.670251 0.562768 0.483793 0.604701 0.732399 0.312935 0.651984 0.703417 0.283058 -0.030949 0.874547 0.483953 -0.918081 0.268827 0.291308 0.030879 -0.872519 -0.487604 0.456915 -0.743851 -0.487765 -0.652184 -0.702186 -0.285641 0.917852 -0.267835 -0.292935 0.604701 0.732399 0.312935 0.917852 -0.267835 -0.292935 0.651984 0.703417 0.283058 0.456915 -0.743851 -0.487765 -0.966117 -0.258104 0 -0.918081 0.268827 0.291308 -0.652184 -0.702186 -0.285641 -0.988648 -0.034999 0.146117 -0.686952 0.650499 0.323959 -0.030885 0.874550 0.483952 -0.713715 0.629685 0.306769 0.892188 0.369861 0.259238 0.030754 -0.872523 -0.487604 0.713767 -0.628363 -0.309350 -0.410915 -0.783181 -0.466665 -0.892102 -0.368912 -0.260881 0.995264 -0.097214 0 0.713767 -0.628363 -0.309350 0.892188 0.369861 0.259238 0.995706 0.035253 0.085597 -0.686952 0.650499 0.323959 -0.713715 0.629685 0.306769 -0.892102 -0.368912 -0.260881 -0.410915 -0.783181 -0.466665 -0.034829 0.984162 -0.173817 -0.034829 0.984162 -0.173817 -0.034829 0.984162 -0.173817 -0.034828 0.984162 -0.173817 -0.006073 0.171607 0.985147 -0.006073 0.171607 0.985147 -0.006073 0.171607 0.985147 -0.006073 0.171607 0.985147 0.034843 -0.984530 0.171715 0.034843 -0.984530 0.171715 0.034843 -0.984530 0.171715 0.034842 -0.984530 0.171715 -0.999374 -0.035370 -0.000000 -0.999374 -0.035368 -0.000000 -0.999374 -0.035368 -0.000000 -0.999374 -0.035365 -0.000001 0.999374 0.035370 -0.000000 0.999374 0.035368 0 0.999374 0.035368 0 0.999374 0.035366 0.000000 -0.018566 0.814070 0.580470 0.465062 0.811836 0.353043 -0.022130 0.986795 -0.160456 -0.019415 0.985050 -0.171174 0.620939 0.692064 0.368079 0.743462 0.650085 0.157016 0.685621 0.707080 -0.173094 -0.022399 0.982702 -0.183833 0.311240 0.534233 -0.785955 -0.022399 0.982702 -0.183833 -0.022457 0.984714 -0.172727</float_array>
+          <technique_common>
+            <accessor source="#object-normal-array" count="146" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="object-texCoords">
+          <float_array id="object-texCoords-array" count="292">1.310756 1.359977 1.181199 1.360609 1.303239 -0.333072 1.173681 -0.332440 -0.173681 0.534232 -0.176688 0.652967 -0.303239 0.530974 -0.306246 0.649709 -0.306246 -0.330820 -0.176688 -0.330189 -0.313763 1.382254 -0.184205 1.382885 0.381283 1.382885 0.347033 -0.330189 0.496132 1.360609 0.465768 -0.332440 0.615462 1.382254 0.500612 1.359977 0.649709 -0.330820 0.530974 -0.333072 0.494749 1.177241 0.449635 1.175480 0.530451 -0.180460 0.485338 -0.182221 0.606797 1.173766 0.699546 -0.183723 0.934091 1.175480 0.941161 -0.182221 0.451558 -0.161024 0.487259 1.196677 0.406444 -0.159263 0.442146 1.198439 0.390545 0.480662 0.393203 0.525784 0.063118 0.505251 0.065909 0.550365 0.698675 0.457306 0.943951 0.469549 0.699546 0.502646 0.941161 0.514662 0.539396 0.474908 0.540559 0.520122 0.416720 0.478266 0.418136 0.523464 0.674258 -0.215682 0.581864 1.153872 0.476116 -0.216704 0.459441 1.153005 0.477406 0.439340 0.678438 0.454807 0.476116 0.484545 0.674258 0.499835 0.497354 -0.183723 0.500165 -0.215682 0.542694 -0.181983 0.545193 -0.213913 1.099312 0.487259 1.096521 0.442146 -0.092242 -0.161024 -0.099312 1.196677 -0.092242 0.451558 -0.089451 0.406444 1.008378 0.377062 0.226399 0.573671 1.009414 0.297157 0.221665 0.489278 0.226399 0.573671 0.618680 0.489278 0.600945 0.573671 0.552442 0.478000 0.534706 0.562393 0.810903 0.562393 0.018068 0.349264 0.815636 0.478000 0.017031 0.269359 0.997406 0.018068 0.465294 0.810903 0.930840 -0.008378 0.399055 0.773601 0.035442 0.017031 0.102008 -0.009414 0.552442 0.815636 0.618680 0.778335 0.514224 0.010610 0.409538 1.336765 0.439622 0.013674 0.334935 1.339830 0.680919 1.295408 0.606317 1.292344 0.571735 0.151729 0.497132 0.148664 0.355918 0.010610 0.440911 0.148664 0.401481 1.336765 0.471516 1.292344 0.659028 0.013674 0.613465 1.339830 0.574035 0.151729 0.543430 1.295408 0.648559 1.138785 0.572461 1.137463 0.585925 -0.185408 0.509825 -0.186725 0.493182 -0.145581 0.427539 0.995574 0.417083 -0.144264 0.351441 0.996896 0.489387 1.137463 0.410144 0.995574 0.486160 -0.186725 0.412491 -0.145581 0.512980 1.138785 0.516197 -0.185408 0.592223 0.996896 0.589867 -0.144264 -0.335893 1.363155 -0.465451 1.363789 -0.343222 -0.278135 -0.472780 -0.277501 1.343222 0.544798 1.472780 0.548066 1.340216 0.663533 1.469774 0.666801 1.340216 -0.275884 1.469774 -0.275250 1.332886 1.385432 1.462444 1.386065 0.364886 1.386065 0.333199 -0.275250 0.479735 1.363789 0.451934 -0.277501 0.631846 1.385432 0.516997 1.363155 0.663533 -0.275884 0.544798 -0.278135 0.063118 1.177241 0.056049 -0.180460 0.390545 1.175526 0.416720 1.155625 0.301325 -0.181983 0.321562 -0.213913 0.522594 -0.214952 0.539396 1.154757 1.089451 -0.159263 0.539396 1.150365 1.096521 1.198439</float_array>
+          <technique_common>
+            <accessor source="#object-texCoords-array" count="146" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="object-obj-vertices">
+          <input semantic="POSITION" source="#object-position"/>
+          <input semantic="TEXCOORD" source="#object-texCoords"/>
+        </vertices>
+        <triangles material="_5_-_Default" count="0">
+          <input semantic="VERTEX" source="#object-obj-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#object-normal" offset="1"/>
+          <p/>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode">
+      <node id="object" name="woodboard" type="NODE">
+        <instance_geometry url="#object-obj">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_5_-_Default3452816845" target="#_5_-_Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
